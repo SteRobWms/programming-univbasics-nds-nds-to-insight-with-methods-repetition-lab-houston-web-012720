@@ -1,6 +1,7 @@
-$LOAD_PATH.unshift(File.dirname(__FILE__))
-require_relative './lib/directors_database'
-pp directors_database
+# $LOAD_PATH.unshift(File.dirname(__FILE__))
+# require_relative './lib/directors_database'
+# pp directors_database
+
 [{:name=>"Stephen Spielberg",
   :movies=>
    [{:title=>"Jaws",
