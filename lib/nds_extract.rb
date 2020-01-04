@@ -33,10 +33,12 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
+  director_array = list_of_directors(source)
+  director_total_hash = directors_totals(source)
   grand_gross = 0
   dir_index = 0
-  while dir_index < list_of_directors(source).length do
-    grand_gross += directors_totals(source)[list_of_directors[dir_index]]
+  while dir_index < director_array.length do
+    grand_gross += director_total_hash[diector_array[dir_index]]
     dir_index += 1
   end
 
