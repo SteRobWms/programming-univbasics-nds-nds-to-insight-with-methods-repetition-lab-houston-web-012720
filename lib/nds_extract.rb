@@ -38,7 +38,7 @@ def total_gross(source)
   grand_gross = 0
   dir_index = 0
   while dir_index < director_array.length do
-    grand_gross += director_total_hash[diector_array[dir_index]]
+    grand_gross += director_total_hash[director_array[dir_index]]
     dir_index += 1
   end
 
