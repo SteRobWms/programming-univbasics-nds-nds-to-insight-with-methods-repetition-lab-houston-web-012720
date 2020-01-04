@@ -40,7 +40,7 @@ def total_gross(source)
     grand_gross += director_hash[list_of_directors[dir_index]]
     dir_index += 1
   end
-    
+
   # Write this implementation
   #
   # Should use methods:
